@@ -1,12 +1,18 @@
-body {
-    background-image: url(../images/sunset.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+#titolo-sito-web {
+    text-align: center;
+    color: green;
 }
 
-.test, .test p {
-    display: inline;
+.test {
+    background-color:red;
+}
+
+div {
+    background-color: green;
+}
+
+div.test {
+    background-color: blue;
 }
 
 .importante {
@@ -30,4 +36,8 @@ h1 {
 
 img {
     max-width: 200px;
+}
+
+p {
+    margin: 2em;
 }
